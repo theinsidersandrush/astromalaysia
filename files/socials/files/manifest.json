@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "The Insider Sandrush",
+    "short_name": "The Insider Sandrush",
+    "description": "The Insider Sandrush's website, builded and hosted over GitHub.",
+    "start_url": "/",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}

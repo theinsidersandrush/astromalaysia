@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Creative Commons Icons";
+    src: url('cc-icons.woff2') format('woff2'),
+         url('cc-icons.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+}
+
+#use-cc-fonts{
+    font-family: "Creative Commons Icons";
+}

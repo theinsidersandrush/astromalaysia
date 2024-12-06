@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.desktop {}
+.desktab {}
+.tablet {}
+.mobile {}
+.respcol {
+   float:left;
+   width:50%;
+}
+
+  @media screen and (min-width: 920px) { 
+    /* desktop  */
+    body {}
+    .bigtable {width:1048px}
+    .desktop {}
+    .desktab {}
+    .tablet {display:none;}
+    .mobile {display:none;}
+    .regtable {width:320}
+  }
+/*  @media screen and (min-width: 728px) and (max-width: 920px) { */
+  @media screen and (max-width: 920px) {
+    /* tablet  (888+list)  */
+    body {}
+    .bigtable {width:728px}
+    .desktop {display:none;}
+    .desktab {}
+    .tablet {}
+    .mobile {display:none;}
+    .respcol {width:100%}
+    .regtable {width:480}
+  }
+/*  @media screen and (max-width: 728px) { 
+    ( mobile )
+    body {background-color:white;}  
+    .bigtable {width:728px}
+    .desktop {display:none;}
+    .desktab {display:none;}
+    .tablet {display:none;}
+    .mobile {}
+    .respcol {width:100%}
+    .regtable {width:320}
+  }
+*/
+/*  @media screen and (max-width: 728px) {
+    body {background-color:lightgreen;}  
+    .bigtable {width:360px}
+    .desktop {display:none;}
+    .desktab {display:none;}
+    .tablet {display:none;}
+    .mobile {}
+    .mux-table {width:100%}
+    .mux-table td:nth-child(4),td:nth-child(6),td:nth-child(8),td:nth-child(9),td:nth-child(10),td:nth-child(11) {display:none;}
+  }  */
