@@ -1,6 +1,6 @@
 # Astro Malaysia
 
-<img src="files/Astro.png">
+<img src="files/astro.png">
 
 ## Everything about Astro Malaysia, a satellite TV and radio broadcaster.
 
